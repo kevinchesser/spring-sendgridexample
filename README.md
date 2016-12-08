@@ -13,3 +13,7 @@
 	- The /send endpoint takes in a required parameter which is toEmail so pass whatever email it is that you want to send to
 	ex. http://localhost:8080/send?toEmail=email@email.com
 5. Verify that you have received an email
+
+Resources used:  
+[Sendgrid java api docs](https://github.com/sendgrid/sendgrid-java#usage)  
+[Spring rest tutorial](https://spring.io/guides/gs/rest-service/)
