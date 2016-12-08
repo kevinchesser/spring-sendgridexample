@@ -1,10 +1,10 @@
 #Spring Sendgrid Example 
 
 1. Edit parameters in MailController.java
-..* From - sendgrid email that you are registered with 
-..* Subject - The email's subject line
-.. *Content - The email's content, Replace "Hello Email!" with whatever you want
-.. *sg - Your unique sendgrid API key
+	- From - sendgrid email that you are registered with
+	- Subject - The email's subject line
+	- Content - The email's content, Replace "Hello Email!" with whatever you want
+	- sg - Your unique sendgrid API key
 
 2. In the top level of your project directory run ./gradlew build
 3. Once it finishes building run ./gradlew bootRun and then wait for the application to start
